@@ -1,1 +1,115 @@
-
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+ 
+  .principal {
+    background-color: #004080;
+    color: white;
+    width: 100%;
+    padding: 15px 0;
+  }
+ 
+  .topo{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ 
+  .header-content h1 {
+    font-size: 20px;
+  }
+ 
+  .logo {
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    gap: 20px;
+  }
+  .contentfundo{
+    
+    background-image: url('../Imagens/fundo.jpg');
+    width: 1000px;
+    margin-left: 445px;
+    margin-top: 2px;
+    margin-bottom: 35px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+ 
+  .content {
+   background-color: white;
+   width: 1000px;
+   margin-left: 445px;
+   margin-top: 2px;
+   margin-bottom: 35px;
+   padding: 20px;
+   border-radius: 10px;
+}
+ 
+ 
+  .content h2 {
+    color: #003a70;
+    margin-bottom: 10px;
+  }
+ 
+  .content p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+    font-size: 14px;
+  }
+ 
+  .rodape{
+    background-color: #004080;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 13px;
+  }
+ 
+  /* Formação de âncora*/
+ 
+  a{
+    color: #ffffff;
+    text-decoration: none;
+  }
+  a:hover{
+    color: #7d7d7d;
+  }
+ 
+  .formulario{
+    width: 350px;
+    height: 450px;
+    background: #f3efef;  
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  .formataform{
+    border-radius: 10px;
+    border-style: none;
+    background: #dfdfdf;
+    height: 26px;
+    width: 272px;
+    font-size: 14px;
+  }
+  .formatatextarea{
+    border-radius: 9px;
+    border-style: none;
+    background: #dfdfdf;
+    height: 85px;
+    width: 272px;
+    font-size: 14px;
+  }
+  button{
+    width: 92%;
+    background: #004080;
+    color: #ffffff;
+    height: 30px;
+    border-radius: 9px;
+    border-style: none;
+  }
